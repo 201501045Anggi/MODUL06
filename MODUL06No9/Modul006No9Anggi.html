@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript</title>
+</head>
+<button onclick="keluar()">Exit</button>
+        <p id="confirm"></p>
+        <script>
+            function keluar()
+            {
+                var x;
+                var r=confirm("Pilih OK atau Cancel!");
+ 
+                if (r==true)
+                  {
+                    x="OK";
+                  }
+                else
+                  {
+                    x="Cancel";
+                  }
+                document.getElementById("confirm").innerHTML=x;
+            }
+        </script>
+<body>
+<h1> </h1>
+</body>
+<script src="script9.js"|></script>
+</html>
